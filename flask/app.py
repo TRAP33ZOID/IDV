@@ -16,7 +16,7 @@ def extract_text_pymupdf(pdf_file_path):
     return text
 
 def summarize_text(text):
-    openai.api_key = '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'
+    openai.api_key = 'API KEY'
     response = openai.ChatCompletion.create(
         model="gpt-4-1106-preview",
         messages=[
