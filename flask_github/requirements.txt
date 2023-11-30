@@ -1,0 +1,4 @@
+Flask
+Flask-Cors==4.0.0
+PyMuPDF==1.23.6
+openai==0.28.0
