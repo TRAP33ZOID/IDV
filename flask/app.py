@@ -16,9 +16,9 @@ def extract_text_pymupdf(pdf_file_path):
     return text
 
 def summarize_text(text):
-    openai.api_key = 'API KEY'
+    openai.api_key = ''
     response = openai.ChatCompletion.create(
-        model="gpt-4-1106-preview",
+        model="gpt-3.5-turbo-1106",
         messages=[
             {"role": "system", "content": '''Summarize the following text fron an insurance policy:
              try to take the following into consideration
